@@ -61,7 +61,6 @@ class BLEManager: NSObject, ObservableObject {
 
 extension BLEManager: CBCentralManagerDelegate {
   func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
-    print("Callback 1")
     guard RSSI.intValue >= -70 else {
       print(RSSI.intValue)
       cancel()
@@ -69,10 +68,6 @@ extension BLEManager: CBCentralManagerDelegate {
     }
     central.stopScan()
     
-    // 10 second timeout
-//    Timer.scheduledTimer(withTimeInterval: 10, repeats: false, block: { _ in
-//      self.cancel()
-//    })
     ledController = peripheral
     central.connect(peripheral, options: nil)
     print("Connecting...")

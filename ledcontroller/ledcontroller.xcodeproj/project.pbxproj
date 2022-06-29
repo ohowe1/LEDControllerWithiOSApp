@@ -15,11 +15,12 @@
 		076609E5286A592300339BEF /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609E4286A592300339BEF /* BLEManager.swift */; };
 		076609EA286A5AAF00339BEF /* LEDModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609E9286A5AAF00339BEF /* LEDModes.swift */; };
 		076609EC286A601400339BEF /* StillColorModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609EB286A601400339BEF /* StillColorModeView.swift */; };
+		07EB190A286CCD4A00AC299A /* ModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EB1909286CCD4A00AC299A /* ModesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		070E5395286B87DE000E51F6 /* AnimatedRainbowModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRainbowModeView.swift; sourceTree = "<group>"; };
-		076609D1286A530500339BEF /* ledcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ledcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076609D1286A530500339BEF /* ledcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ledcontroller.app; path = "/Users/ollie/Developer/Other/LEDControllerWithApp/ledcontroller/build/Debug-iphoneos/ledcontroller.app"; sourceTree = "<absolute>"; };
 		076609D4286A530500339BEF /* LEDControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDControllerApp.swift; sourceTree = "<group>"; };
 		076609D6286A530500339BEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		076609D8286A530500339BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		076609E4286A592300339BEF /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 		076609E9286A5AAF00339BEF /* LEDModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDModes.swift; sourceTree = "<group>"; };
 		076609EB286A601400339BEF /* StillColorModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillColorModeView.swift; sourceTree = "<group>"; };
+		07EB1909286CCD4A00AC299A /* ModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				076609D3286A530500339BEF /* ledcontroller */,
-				076609D2286A530500339BEF /* Products */,
-				07EF719F286CC23C00574DE3 /* Recovered References */,
-				07EF71A0286CC27300574DE3 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		076609D2286A530500339BEF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				076609D1286A530500339BEF /* ledcontroller.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		076609D3286A530500339BEF /* ledcontroller */ = {
@@ -85,6 +76,7 @@
 				076609D6286A530500339BEF /* ContentView.swift */,
 				076609EB286A601400339BEF /* StillColorModeView.swift */,
 				070E5395286B87DE000E51F6 /* AnimatedRainbowModeView.swift */,
+				07EB1909286CCD4A00AC299A /* ModesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,13 +89,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		07EF719F286CC23C00574DE3 /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Recovered References";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,7 +99,6 @@
 				076609CD286A530500339BEF /* Sources */,
 				076609CE286A530500339BEF /* Frameworks */,
 				076609CF286A530500339BEF /* Resources */,
-				070E53AE286B9AB8000E51F6 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
@@ -149,7 +133,7 @@
 				Base,
 			);
 			mainGroup = 076609C8286A530500339BEF;
-			productRefGroup = 076609D2286A530500339BEF /* Products */;
+			productRefGroup = 076609C8286A530500339BEF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -176,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				076609D7286A530500339BEF /* ContentView.swift in Sources */,
+				07EB190A286CCD4A00AC299A /* ModesView.swift in Sources */,
 				070E5396286B87DE000E51F6 /* AnimatedRainbowModeView.swift in Sources */,
 				076609EC286A601400339BEF /* StillColorModeView.swift in Sources */,
 				076609E5286A592300339BEF /* BLEManager.swift in Sources */,

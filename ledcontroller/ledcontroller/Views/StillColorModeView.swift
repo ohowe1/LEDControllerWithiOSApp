@@ -10,11 +10,12 @@ import SwiftUI
 struct StillColorModeView: View {
   @ObservedObject var modeState: StillColorMode
   var body: some View {
-    HStack {
+    Form {
+      Section(header: Text("Color")) {
       ColorPicker(selection: $modeState.color, supportsOpacity: false) {
-        Text("LED Color")
       }
-      .frame(maxWidth: 150)
+      .labelsHidden()
+      }
     }
   }
 }
@@ -22,5 +23,6 @@ struct StillColorModeView: View {
 struct StillColorView_Previews: PreviewProvider {
   static var previews: some View {
     StillColorModeView(modeState: StillColorMode())
+      .environmentObject(BLEManager())
   }
 }

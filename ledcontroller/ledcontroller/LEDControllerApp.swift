@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct LEDControllerApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @ObservedObject var bleManager: BLEManager = BLEManager()
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(bleManager)
     }
+  }
 }
