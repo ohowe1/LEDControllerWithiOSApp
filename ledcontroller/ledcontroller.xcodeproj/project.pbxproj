@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070E5396286B87DE000E51F6 /* AnimatedRainbowModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070E5395286B87DE000E51F6 /* AnimatedRainbowModeView.swift */; };
+		076609D5286A530500339BEF /* LEDControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609D4286A530500339BEF /* LEDControllerApp.swift */; };
+		076609D7286A530500339BEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609D6286A530500339BEF /* ContentView.swift */; };
+		076609D9286A530500339BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076609D8286A530500339BEF /* Assets.xcassets */; };
+		076609DC286A530500339BEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076609DB286A530500339BEF /* Preview Assets.xcassets */; };
+		076609E5286A592300339BEF /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609E4286A592300339BEF /* BLEManager.swift */; };
+		076609EA286A5AAF00339BEF /* LEDModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609E9286A5AAF00339BEF /* LEDModes.swift */; };
+		076609EC286A601400339BEF /* StillColorModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076609EB286A601400339BEF /* StillColorModeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070E5395286B87DE000E51F6 /* AnimatedRainbowModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRainbowModeView.swift; sourceTree = "<group>"; };
+		076609D1286A530500339BEF /* ledcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ledcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		076609D4286A530500339BEF /* LEDControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDControllerApp.swift; sourceTree = "<group>"; };
+		076609D6286A530500339BEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		076609D8286A530500339BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		076609DB286A530500339BEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		076609E4286A592300339BEF /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		076609E9286A5AAF00339BEF /* LEDModes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDModes.swift; sourceTree = "<group>"; };
+		076609EB286A601400339BEF /* StillColorModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillColorModeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076609CE286A530500339BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076609C8286A530500339BEF = {
+			isa = PBXGroup;
+			children = (
+				076609D3286A530500339BEF /* ledcontroller */,
+				076609D2286A530500339BEF /* Products */,
+				07EF719F286CC23C00574DE3 /* Recovered References */,
+				07EF71A0286CC27300574DE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		076609D2286A530500339BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076609D1286A530500339BEF /* ledcontroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		076609D3286A530500339BEF /* ledcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				076609E6286A5A1600339BEF /* Models */,
+				076609E2286A590B00339BEF /* Views */,
+				076609D4286A530500339BEF /* LEDControllerApp.swift */,
+				076609E4286A592300339BEF /* BLEManager.swift */,
+				076609D8286A530500339BEF /* Assets.xcassets */,
+				076609DA286A530500339BEF /* Preview Content */,
+			);
+			path = ledcontroller;
+			sourceTree = "<group>";
+		};
+		076609DA286A530500339BEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				076609DB286A530500339BEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		076609E2286A590B00339BEF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				076609D6286A530500339BEF /* ContentView.swift */,
+				076609EB286A601400339BEF /* StillColorModeView.swift */,
+				070E5395286B87DE000E51F6 /* AnimatedRainbowModeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		076609E6286A5A1600339BEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				076609E9286A5AAF00339BEF /* LEDModes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07EF719F286CC23C00574DE3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		076609D0286A530500339BEF /* ledcontroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076609DF286A530500339BEF /* Build configuration list for PBXNativeTarget "ledcontroller" */;
+			buildPhases = (
+				076609CD286A530500339BEF /* Sources */,
+				076609CE286A530500339BEF /* Frameworks */,
+				076609CF286A530500339BEF /* Resources */,
+				070E53AE286B9AB8000E51F6 /* Embed App Clips */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ledcontroller;
+			productName = ledcontroller;
+			productReference = 076609D1286A530500339BEF /* ledcontroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076609C9286A530500339BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					076609D0286A530500339BEF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 076609CC286A530500339BEF /* Build configuration list for PBXProject "ledcontroller" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076609C8286A530500339BEF;
+			productRefGroup = 076609D2286A530500339BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				076609D0286A530500339BEF /* ledcontroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		076609CF286A530500339BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076609DC286A530500339BEF /* Preview Assets.xcassets in Resources */,
+				076609D9286A530500339BEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076609CD286A530500339BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076609D7286A530500339BEF /* ContentView.swift in Sources */,
+				070E5396286B87DE000E51F6 /* AnimatedRainbowModeView.swift in Sources */,
+				076609EC286A601400339BEF /* StillColorModeView.swift in Sources */,
+				076609E5286A592300339BEF /* BLEManager.swift in Sources */,
+				076609D5286A530500339BEF /* LEDControllerApp.swift in Sources */,
+				076609EA286A5AAF00339BEF /* LEDModes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		076609DD286A530500339BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		076609DE286A530500339BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		076609E0286A530500339BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ledcontroller/Preview Content\"";
+				DEVELOPMENT_TEAM = WMWVL4TBXV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "This app uses bluetooth to connect to the LED controller";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses bluetooth to connect to the LED controller";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ohowe.ledcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		076609E1286A530500339BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ledcontroller/Preview Content\"";
+				DEVELOPMENT_TEAM = WMWVL4TBXV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "This app uses bluetooth to connect to the LED controller";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses bluetooth to connect to the LED controller";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Bluetooth ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ohowe.ledcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076609CC286A530500339BEF /* Build configuration list for PBXProject "ledcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076609DD286A530500339BEF /* Debug */,
+				076609DE286A530500339BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076609DF286A530500339BEF /* Build configuration list for PBXNativeTarget "ledcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076609E0286A530500339BEF /* Debug */,
+				076609E1286A530500339BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 076609C9286A530500339BEF /* Project object */;
+}
